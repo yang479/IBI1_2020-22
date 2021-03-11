@@ -3,7 +3,7 @@ b=1
 i=2
 print（a）
 print（b）
-#a,b is the first two
+#a,b is the first two，dont ignore
 while i!=13:
   i=i+1
   c=a+b
