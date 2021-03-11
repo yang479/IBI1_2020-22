@@ -4,7 +4,7 @@ i=2
 print（a）
 print（b）
 #a,b is the first two，dont ignore
-while i!=13:
+while i!=13:#dont ignore :
   i=i+1
   c=a+b
   a=b
