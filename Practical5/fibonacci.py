@@ -1,9 +1,9 @@
 a=1
 b=1
 i=2
-print（a）
-print（b）
-#a,b is the first two，dont ignore
+print(a)
+print(b)
+#a,b is the first two,dont ignore
 while i!=13:#dont ignore :
   i=i+1
   c=a+b
