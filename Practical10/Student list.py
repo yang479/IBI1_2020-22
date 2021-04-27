@@ -1,12 +1,12 @@
 
-class Coordinate ():
+class Coordinate (): #class: introduce the coordinate
 
 	def __init__(student, first_name, last_name, name, programme):
 		student.Fname=first_name
 		student.Lname=last_name
 		student.name=name
-		student.programme=programme
-		print(student.name,student.programme)
+		student.programme=programme #function: input the coordinate
+		print(student.name,student.programme) #print the result
 
-Ye_Yaxuan = Coordinate('Yaxuan','Ye','Ye yaxuan','BMI')
-#__init__(student, first_name, last_name, name, programme)
+Coordinate('Yaxuan','Ye','Ye yaxuan','BMI') #activate the function
+
