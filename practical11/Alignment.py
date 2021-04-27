@@ -1,7 +1,3 @@
-
-
-
-
 #input the blosum62,from:https://www.biostars.org/p/405990/
 blosum62 = {
     ('W', 'F'): 1, ('L', 'R'): -2, ('S', 'P'): -1, ('V', 'T'): 0,
