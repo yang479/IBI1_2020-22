@@ -1,0 +1,9 @@
+question:
+How have new cases and total cases developed over time in Spain?
+
+line number:
+100
+
+discussion:
+The new cases and total cases are 0 at the beginning.
+After that, the new cases inscreased and decreased, while total cases increased all the time.
