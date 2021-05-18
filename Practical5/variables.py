@@ -48,8 +48,8 @@ else:
 
 
 
-X=False
-Y=True
+X=True
+Y=False
 Z=(X and not Y) or (Y and not X)
 W=(X!=Y)
 print("third round:")
