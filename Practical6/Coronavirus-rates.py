@@ -13,6 +13,7 @@ explode=(0,0.2,0,0,0)
 plt.pie(sizes,explode=explode,labels=labels,autopct='%1.1f%%',
         shadow=True,startangle=180)
 plt.axis('equal')
+plt.title("The pie chart of the total cases in five countries") #add the plot title 
 #print
 plt.show()
 
