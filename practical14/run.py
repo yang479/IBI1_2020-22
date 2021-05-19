@@ -10,7 +10,7 @@ import re
 
 import sys
 sys.setrecursionlimit(500000) #increase the number of recursion
-import things
+#import things
 
 DOMTree = xml.dom.minidom.parse("go_obo.xml") #open the file
 xnl = DOMTree.documentElement
