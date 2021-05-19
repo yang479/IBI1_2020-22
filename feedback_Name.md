@@ -24,7 +24,7 @@ Therefore, I correct it by changing "X=False Y=True" to "X=True Y=False" in the 
 
 In the fibonacci.py, I have no detailed pseudocodes. (only warning, not what is happening) 
 I added these pseudocodes to make it up:
-# input the default data
+#input the default data
 #print a,b(the first two number)
 #start the loop of Morphebonacci
 #count the loops
