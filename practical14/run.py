@@ -20,6 +20,7 @@ terms = xnl.getElementsByTagName("term") #select all terms
 Dic={}
 #set the default data
 
+#calculate the number of childnodes: this part taking example by Wang Bing
 for term in terms: #collect all childnodes and ids in terms
 	id=term.getElementsByTagName('id')
 	Dic[id[0].firstChild.data]=[]
@@ -67,9 +68,10 @@ RNA=RNA/(DNA+RNA+protein+carbohydrate)
 protein=protein/(DNA+RNA+protein+carbohydrate)
 carbohydrate=carbohydrate/(DNA+RNA+protein+carbohydrate)
 #caculate the ratio
-substances=[DNA,RNA,protein,carbohydrate]
-labels='DNA','RNA','protein','carbohydrate'
-plt.pie(substances,explode=(0.1,0.1,0,0.1),labels=labels,autopct='%1.2f%%',shadow=True,startangle=90)
-plt.title("The childnode number of DNA, RNA, protein and carbohydrate")
-plt.show()
+#I doubt whether it is necessary, because the pie chart will calculate the ratio automatically in my version of python.
+substances=[DNA,RNA,protein,carbohydrate]  #input the data
+labels='DNA','RNA','protein','carbohydrate' #label the pie chart
+plt.pie(substances,explode=(0.1,0.1,0,0.1),labels=labels,autopct='%1.2f%%',shadow=True,startangle=90) #draw the pie chart
+plt.title("The childnode number of DNA, RNA, protein and carbohydrate") #add the title 
+plt.show() #print
 
