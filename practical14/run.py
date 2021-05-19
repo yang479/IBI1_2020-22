@@ -30,24 +30,7 @@ for term in terms:
         	Dic[is_a.firstChild.data].append(id[0].firstChild.data)
 #print(Dic)
 
-'''
-def count(a):
-    for term in terms:
-        if a in term.getElementsByTagName('defstr')[0].firstChild.data:#if 'a' exist in defstr, we thought we find what we need
-            ids=term.getElementsByTagName('id')[0].firstChild.data#get the id information
-            if dictionary[ids] !=[]:
-                counter=dictionary[ids]
-                n=count2(counter)
-    print('the childnode number of '+a+' is '+str(n))
-    return n
-def count2(counter):
-    for i in range(len(counter)):
-        if counter[i] not in listf:
-            listf.append(counter[i])#put the childnodes into listf
-            count2(dictionary[counter[i]])#put the 'grandchildnodes' into listf
-    return len(listf)
-listf=[]#listf is used to store the childnodes
-'''
+
 
 
 
